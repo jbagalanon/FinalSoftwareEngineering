@@ -78,5 +78,10 @@ namespace FinalSoftwareEngineering
             frmDiscount discount = new frmDiscount();
             discount.Show();
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

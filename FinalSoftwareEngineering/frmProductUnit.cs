@@ -50,10 +50,10 @@ namespace FinalSoftwareEngineering
 
                 if (cmd.ExecuteNonQuery() == 1)
                 {
-                    MessageBox.Show("Query Executed");
+                    MessageBox.Show("Data successfully updated");
                 }
                 else
-                    MessageBox.Show("Query not executed");
+                    MessageBox.Show("Process Failed");
 
             }
 

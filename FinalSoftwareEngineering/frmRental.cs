@@ -17,18 +17,8 @@ namespace FinalSoftwareEngineering
         {
             InitializeComponent();
         }
-        MySqlConnection connection = new MySqlConnection("datasource=localhost; port=3306; database=africascatering;  username =root; password=");
-        MySqlCommand command;
-        private void pictureBoxClose_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-       
-        private void txtSearch_TextChanged(object sender, EventArgs e)
-        {
-          
+       // MySqlConnection connection = new MySqlConnection("datasource=localhost; port=3306; database=africascatering;  username =root; password=")
 
-        }
 
         private void frmRental_Load(object sender, EventArgs e)
         {

@@ -51,9 +51,10 @@
             // dgvInventory
             // 
             this.dgvInventory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvInventory.Location = new System.Drawing.Point(13, 181);
+            this.dgvInventory.Location = new System.Drawing.Point(17, 223);
+            this.dgvInventory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvInventory.Name = "dgvInventory";
-            this.dgvInventory.Size = new System.Drawing.Size(791, 344);
+            this.dgvInventory.Size = new System.Drawing.Size(1055, 423);
             this.dgvInventory.TabIndex = 9;
             // 
             // panel1
@@ -63,28 +64,32 @@
             this.panel1.Controls.Add(this.lblTop);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(814, 33);
+            this.panel1.Size = new System.Drawing.Size(1085, 41);
             this.panel1.TabIndex = 8;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(786, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(1048, 1);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(29, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(39, 39);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 96;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lblTop
             // 
             this.lblTop.AutoSize = true;
             this.lblTop.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTop.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblTop.Location = new System.Drawing.Point(364, 3);
+            this.lblTop.Location = new System.Drawing.Point(485, 4);
+            this.lblTop.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTop.Name = "lblTop";
-            this.lblTop.Size = new System.Drawing.Size(191, 21);
+            this.lblTop.Size = new System.Drawing.Size(239, 28);
             this.lblTop.TabIndex = 0;
             this.lblTop.Text = "INVENTORY (No Data YEt)";
             // 
@@ -93,9 +98,10 @@
             this.btnAll.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.btnAll.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAll.Font = new System.Drawing.Font("Century Schoolbook", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAll.Location = new System.Drawing.Point(686, 52);
+            this.btnAll.Location = new System.Drawing.Point(915, 64);
+            this.btnAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAll.Name = "btnAll";
-            this.btnAll.Size = new System.Drawing.Size(104, 25);
+            this.btnAll.Size = new System.Drawing.Size(139, 31);
             this.btnAll.TabIndex = 12;
             this.btnAll.Text = "SHOW ALL";
             this.btnAll.UseVisualStyleBackColor = false;
@@ -105,9 +111,10 @@
             // 
             this.cmbCategories.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCategories.FormattingEnabled = true;
-            this.cmbCategories.Location = new System.Drawing.Point(90, 57);
+            this.cmbCategories.Location = new System.Drawing.Point(120, 70);
+            this.cmbCategories.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbCategories.Name = "cmbCategories";
-            this.cmbCategories.Size = new System.Drawing.Size(108, 25);
+            this.cmbCategories.Size = new System.Drawing.Size(143, 29);
             this.cmbCategories.TabIndex = 11;
             this.cmbCategories.SelectedIndexChanged += new System.EventHandler(this.cmbCategories_SelectedIndexChanged);
             // 
@@ -115,9 +122,10 @@
             // 
             this.lblCategory.AutoSize = true;
             this.lblCategory.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCategory.Location = new System.Drawing.Point(14, 60);
+            this.lblCategory.Location = new System.Drawing.Point(19, 74);
+            this.lblCategory.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(79, 20);
+            this.lblCategory.Size = new System.Drawing.Size(97, 22);
             this.lblCategory.TabIndex = 10;
             this.lblCategory.Text = "Category";
             // 
@@ -125,9 +133,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(205, 58);
+            this.label1.Location = new System.Drawing.Point(273, 71);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 20);
+            this.label1.Size = new System.Drawing.Size(49, 22);
             this.label1.TabIndex = 13;
             this.label1.Text = "Type";
             // 
@@ -135,9 +144,10 @@
             // 
             this.cmbType.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbType.FormattingEnabled = true;
-            this.cmbType.Location = new System.Drawing.Point(250, 56);
+            this.cmbType.Location = new System.Drawing.Point(333, 69);
+            this.cmbType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbType.Name = "cmbType";
-            this.cmbType.Size = new System.Drawing.Size(133, 25);
+            this.cmbType.Size = new System.Drawing.Size(176, 29);
             this.cmbType.TabIndex = 14;
             this.cmbType.SelectedIndexChanged += new System.EventHandler(this.cmbType_SelectedIndexChanged);
             // 
@@ -145,9 +155,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(391, 57);
+            this.label2.Location = new System.Drawing.Point(521, 70);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 20);
+            this.label2.Size = new System.Drawing.Size(43, 22);
             this.label2.TabIndex = 15;
             this.label2.Text = "Size";
             // 
@@ -155,18 +166,20 @@
             // 
             this.cmbSize.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSize.FormattingEnabled = true;
-            this.cmbSize.Location = new System.Drawing.Point(428, 54);
+            this.cmbSize.Location = new System.Drawing.Point(571, 66);
+            this.cmbSize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbSize.Name = "cmbSize";
-            this.cmbSize.Size = new System.Drawing.Size(108, 25);
+            this.cmbSize.Size = new System.Drawing.Size(143, 29);
             this.cmbSize.TabIndex = 16;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(543, 56);
+            this.label3.Location = new System.Drawing.Point(724, 69);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 20);
+            this.label3.Size = new System.Drawing.Size(46, 22);
             this.label3.TabIndex = 17;
             this.label3.Text = "Unit";
             // 
@@ -174,9 +187,10 @@
             // 
             this.cmbUnit.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbUnit.FormattingEnabled = true;
-            this.cmbUnit.Location = new System.Drawing.Point(583, 53);
+            this.cmbUnit.Location = new System.Drawing.Point(777, 65);
+            this.cmbUnit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbUnit.Name = "cmbUnit";
-            this.cmbUnit.Size = new System.Drawing.Size(92, 25);
+            this.cmbUnit.Size = new System.Drawing.Size(121, 29);
             this.cmbUnit.TabIndex = 18;
             this.cmbUnit.SelectedIndexChanged += new System.EventHandler(this.cmbUnit_SelectedIndexChanged);
             // 
@@ -184,18 +198,19 @@
             // 
             this.cmbSubCategory.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbSubCategory.FormattingEnabled = true;
-            this.cmbSubCategory.Location = new System.Drawing.Point(90, 110);
+            this.cmbSubCategory.Location = new System.Drawing.Point(120, 135);
+            this.cmbSubCategory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbSubCategory.Name = "cmbSubCategory";
-            this.cmbSubCategory.Size = new System.Drawing.Size(133, 25);
+            this.cmbSubCategory.Size = new System.Drawing.Size(176, 29);
             this.cmbSubCategory.TabIndex = 19;
             this.cmbSubCategory.SelectedIndexChanged += new System.EventHandler(this.cmbSubCategory_SelectedIndexChanged);
             // 
             // frmInventory
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.ClientSize = new System.Drawing.Size(814, 531);
+            this.ClientSize = new System.Drawing.Size(1085, 654);
             this.Controls.Add(this.cmbSubCategory);
             this.Controls.Add(this.cmbUnit);
             this.Controls.Add(this.label3);
@@ -209,7 +224,7 @@
             this.Controls.Add(this.cmbCategories);
             this.Controls.Add(this.lblCategory);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmInventory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmInventory";

@@ -49,9 +49,7 @@ namespace FinalSoftwareEngineering
 
                     if (rbnuser.Checked == true)
                     {
-
-
-
+                        
                     }
 
                     this.Hide();

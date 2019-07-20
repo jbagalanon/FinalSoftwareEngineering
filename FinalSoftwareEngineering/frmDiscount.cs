@@ -105,6 +105,7 @@ namespace FinalSoftwareEngineering
         {
             frmAdminDashboard frm = new frmAdminDashboard();
             frm.Show();
+            this.Hide();
         }
     }
 }
