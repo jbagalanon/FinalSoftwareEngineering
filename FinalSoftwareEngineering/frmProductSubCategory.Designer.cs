@@ -47,7 +47,6 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSubCategories)).BeginInit();
@@ -259,18 +258,10 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sub Category";
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.panel2.Location = new System.Drawing.Point(0, 316);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(716, 123);
-            this.panel2.TabIndex = 146;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.panel3.Location = new System.Drawing.Point(-62, 288);
+            this.panel3.Location = new System.Drawing.Point(-62, 302);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(841, 28);
@@ -281,9 +272,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(716, 438);
+            this.ClientSize = new System.Drawing.Size(716, 330);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox2);
@@ -336,7 +326,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
     }
 }
